@@ -45,7 +45,6 @@ export default function App() {
         pass += charspec.charAt(Math.floor(Math.random() * charspec.length));
       }
     }
-
     setPassword(pass);
   }
 
